@@ -1,0 +1,298 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'roboto', sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #F5F6FA !important;
+}
+
+h1 {
+    color: #7EABD4;
+}
+
+p {
+    color: #4d555c;
+    margin-top: 10px;
+}
+
+legend {
+    font-size: 14px !important;
+    color: #7EABD4;
+}
+
+
+
+.nav-item>a {
+    color: #7EABD4;
+}
+
+.img-one {
+    background-image: url('../images/desktop-1.jpg');
+    height: 100vh;
+    background-size: cover;
+}
+
+.img-two {
+    background-image: url('../images/desktop-2.jpg');
+    height: 100vh;
+    background-size: cover;
+}
+
+.img-three {
+    background-image: url('../images//desktop-3.jpg');
+    height: 100vh;
+    background-size: cover;
+}
+
+
+section.header {
+    margin-bottom: 0;
+}
+
+section {
+    margin-bottom: 120px;
+}
+
+.text-about {
+    margin-bottom: 40px;
+}
+
+.plan-imagens img {
+    width: 100%;
+    height: 20vh;
+    padding: 40px;
+    margin: 20px 20px 20px 0;
+    border-radius: 10px;
+    background-color: #fff;
+}
+
+.card-general .card-body {
+    border-top: 1px solid rgba(0, 0, 0, 0.175);
+}
+
+.card-title {
+    margin: 20px 0;
+}
+
+.card-general .card {
+    margin: 10px;
+}
+
+.plan-descripton {
+    text-align: left;
+}
+
+.plan-imagens {
+    width: 100%;
+}
+
+.plan-descripton h1 {
+    color: #4d555c;
+    font-weight: 600;
+}
+
+.carousel-indicators [data-bs-target] {
+    background-color: #7EABD4 !important;
+}
+
+.carousel-indicators {
+    top: 98%;
+}
+
+.plan .button-contact-plan button {
+    background-color: #2da947;
+    padding: 15px 30px;
+    font-weight: 600;
+    border: none;
+    margin-bottom: 20px;
+}
+
+.specialty-images {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.specialty-images img {
+    width: 50%;
+    border-radius: 50%;
+    margin: 20px;
+    filter: brightness(73%) contrast(100%) saturate(56%) blur(0px) hue-rotate(0deg);
+    cursor: pointer;
+}
+
+.specialty-images img:hover {
+    filter: none;
+}
+
+.specialty-images label {
+    display: block;
+}
+
+.specialty-images label {
+    color: #7EABD4;
+}
+.box-plan-checkbox label{
+    display: block;
+    margin-bottom: 20px;
+}
+
+.contact-info {
+    text-align: left;
+}
+
+.contact-container {
+    display: flex;
+}
+
+.contact-form {
+    width: 100%;
+}
+
+.contact-form input {
+    margin-bottom: 10px;
+}
+
+.contact-button {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-info h1 {
+    color: #4d555c;
+    font-weight: 600;
+}
+
+.contact-info {
+    color: #4d555c;
+    margin: 10px 0
+}
+
+.contact-divider {
+    background-color: #7EABD4;
+    width: 15%;
+    padding: 3px 0;
+    margin: 20px 0;
+}
+
+.contact button {
+    padding: 15px 30px;
+    font-weight: 600;
+    border: none;
+}
+
+.contact .button-contact button {
+    position: relative;
+    background-color: #2da947;
+}
+
+.contact .contact-form button {
+    background-color: #3483fa;
+}
+
+.button-contact .whatsapp {
+    position: absolute;
+    left: 10px;
+}
+
+section.footer {
+    text-align: center;
+    margin-bottom: 0;
+    background-color: #7EABD4;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 30vh;
+}
+
+.developers {
+    text-align: center;
+    margin-bottom: 0;
+    background-color: #8fc2ef;
+    height: 5vh;
+}
+
+@media only screen and (max-width: 768px) {
+    #navbarNav .nav {
+        display: flex;
+        flex-direction: column;
+        border-top: 1px solid #000;
+        margin-top: 10px;
+    }
+
+    section.header {
+        margin-bottom: 0;
+    }
+
+    section {
+        margin-bottom: 60px;
+    }
+
+    .text-about {
+        margin-bottom: 20px;
+    }
+
+    section.footer {
+        display: flex;
+        flex-direction: column;
+        text-align: left;
+        padding: 40px;
+        height: 50vh;
+    }
+
+    .developers {
+        display: flex;
+        flex-direction: column;
+        padding: 8px;
+        font-size: 14px;
+        height: 10vh;
+    }
+
+    .plan-descripton .button-contact-plan {
+        text-align: center;
+    }
+
+    .img-one {
+        background-image: url('../images/mobile-1.jpg');
+        height: 100vh;
+        background-size: cover;
+    }
+
+    .img-two {
+        background-image: url('../images/mobile-2.jpg');
+        height: 100vh;
+        background-size: cover;
+
+    }
+
+    .img-three {
+        background-image: url('../images/mobile-3.jpg');
+        height: 100vh;
+        background-size: cover;
+    }
+
+}
+
+@media only screen and (max-width: 1200px) {
+    .contact-container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .contact .button-contact button {
+        margin-bottom: 10px;
+    }
+}
